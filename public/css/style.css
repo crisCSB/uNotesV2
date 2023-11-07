@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#userName{
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+    display: inline;
+}
+
+.conCos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.ch1{
+    font-size: 70px;
+}
+
+.widCos{
+    width: 1000px
+}
+
+.margrCos{
+    margin-right: 20px;
+}
+
+@keyframes animation1 {
+    0% {
+    color: #75b798;
+    }
+    30% {
+        color: #ffda6a;
+    }
+    68%,
+    72% {
+    color: #6ea8fe;
+    }
+    100% {
+    color: #e9868f;
+    }
+    
+}
+
+#colorLine {
+    padding: 2px;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    display: inline;
+}
+
+.formCenter{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll {
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 25px;
+}
